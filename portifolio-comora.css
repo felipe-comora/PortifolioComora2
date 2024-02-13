@@ -8,8 +8,18 @@
     --bg-color:  #202121;
     --white-color: #ffffff;
   }
+html {
+  scroll-behavior: smooth;
+}
+ 
+:target {
+  scroll-margin-top: 100px;
+}
 body{
     background-color: var(--bg-color);
+}
+main{
+    margin-top: 4%;
 }
 .nav-bar{
     display: flex;
@@ -18,8 +28,9 @@ body{
     background-color: var(--nav-color);
     height: 8vh;
     width: 100%;
-    position: sticky;
+    position: fixed;
     top: 0;
+    opacity: 0.8;
 }
 .nav-list{
     list-style: none;
