@@ -173,7 +173,26 @@ h2 {
         translate: 0 0;
     }
 }
-
+@media (width: 1440px){
+    .nav-bar{
+        max-width: 100%;
+        align-items: center;
+        margin: auto;
+        z-index: 99999999;
+    }
+    .home{
+        align-items: center;
+        margin-top: 125px;
+        margin-left: 100px;
+        margin-right: 50px;
+    }
+    .scroll-smooth{
+        animation: none;
+    }
+    :target {
+        scroll-margin-top: 25px;
+    }
+}
 @media (max-width: 900px) {
     body{
         width: 900px;
@@ -212,6 +231,7 @@ h2 {
     .container-projects{
         display: flex;
         flex-direction: column;
+        margin-left: 32px;
 
     }
 }
