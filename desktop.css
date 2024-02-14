@@ -192,6 +192,7 @@ h2 {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        margin-top: 125px;
     }
     .home-img{
         max-width: 100%;
@@ -206,7 +207,7 @@ h2 {
         animation: none;
     }
     .about{
-        margin-top: 100px;
+        margin-top: 500px;
     }
     .container-projects{
         display: flex;
