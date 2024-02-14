@@ -185,6 +185,7 @@ h2 {
         max-width: 100%;
         align-items: center;
         margin: auto;
+        z-index: 99999999;
     }
     .home{
         display: flex;
