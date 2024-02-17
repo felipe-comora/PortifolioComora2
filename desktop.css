@@ -193,9 +193,9 @@ h2 {
         scroll-margin-top: 25px;
     }
 }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     body{
-        width: 900px;
+        width: 1000px;
     }
     :target {
         scroll-margin-top: 300px;
@@ -222,6 +222,9 @@ h2 {
         padding: 0;
         position: relative;
         top: -200px;
+    }
+    .title-name h1{
+        font-size: 120px;
     }
     .scroll-smooth{
         animation: none;
